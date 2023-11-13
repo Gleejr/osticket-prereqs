@@ -102,3 +102,65 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <img width="282" alt="Screen Shot 2023-11-07 at 9 20 18 PM" src="https://github.com/Gleejr/Configure-ad/assets/148407820/edbeace0-962d-4353-b7d2-ebc042b7cb01">
   <img width="363" alt="Screen Shot 2023-11-07 at 9 22 01 PM" src="https://github.com/Gleejr/Configure-ad/assets/148407820/d98e55e4-cca2-43c8-91a9-1024c243600f">
 </p>
+
+<p>
+8. Go to virtual machines, go into VM1, and grab the public IP address.
+</p>
+
+<p>
+  <img width="1291" alt="Screen Shot 2023-11-12 at 10 27 32 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/b7b24d9d-b47e-4de4-a4bb-36f4075d4cec">
+</p>
+
+
+<p>
+9. Launch remote desktop and login into VM1 using the username and password that was set in step 7.
+</p>
+
+<p>
+  <img width="711" alt="Screen Shot 2023-11-12 at 10 30 21 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/cb4fd3f5-d8d7-4518-a0f9-0aae864455d2">
+  <img width="662" alt="Screen Shot 2023-11-12 at 10 30 47 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/22a3b02f-c2e0-4b47-8f22-8c0f194677f5">
+</p>
+
+
+<p>
+10. Right click on the windows icon, select run, and type in control. 
+</p>
+
+<p>
+  <img width="436" alt="Screen Shot 2023-11-12 at 10 41 03 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/23a04e74-7154-408b-b60c-3e87149a9136">
+</p>
+
+<p>
+11. Click on programs and click on "Turn Windows features on and off"
+</p>
+
+<p>
+  <img width="651" alt="Screen Shot 2023-11-12 at 10 45 57 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/8a577b33-f24a-4e95-87dd-e55f9bc96898">
+  <img width="527" alt="Screen Shot 2023-11-12 at 10 45 04 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/23de8513-ce01-472b-9f66-bfc05fb086f3">
+</p>
+
+
+<p>
+12. Click on Internet Information Services and expand it, expand World Wide Web Services, expand application development features, and check the boxnext to CGI.
+</p>
+
+<p>
+  <img width="418" alt="Screen Shot 2023-11-12 at 10 49 28 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/c1d42803-707e-4e53-89ab-4d7efa4bd2ee">
+  <img width="427" alt="Screen Shot 2023-11-12 at 10 50 34 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/5db8ae3b-f1fb-44ad-8b24-66a9f0a1fc13">
+  <img width="416" alt="Screen Shot 2023-11-12 at 10 51 26 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/6ea5ed8d-6708-453d-80eb-eb518db2b7fd">
+  <img width="406" alt="Screen Shot 2023-11-12 at 10 52 13 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/bd05881d-a6e7-45f4-b51d-e56d0668fd57">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
