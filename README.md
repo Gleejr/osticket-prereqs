@@ -151,7 +151,147 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <img width="406" alt="Screen Shot 2023-11-12 at 10 52 13 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/bd05881d-a6e7-45f4-b51d-e56d0668fd57">
 </p>
 
+<p>
+13. Expand "Common HTTP Features" and make sure that every box is checked. Click OK and installation should start.
+</p>
 
+<p>
+  <img width="418" alt="Screen Shot 2023-11-13 at 8 51 29 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/dde4e3d3-66d4-4021-85ff-f0d49c1ca333">
+  <img width="659" alt="Screen Shot 2023-11-13 at 8 51 59 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/4f5ba23d-516a-48bf-97cf-e0240105d84f">
+</p>
+
+<p>
+14. Once the installation has completed, open a web browser and type in 127.0.0.1. This can test if the web server is working by populating the defualt IIS website.
+</p>
+
+<p>
+  <img width="724" alt="Screen Shot 2023-11-13 at 8 58 51 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/dcd410a0-11d8-4a97-a64d-cf16b40b839a">
+</p>
+
+<h3>Install PHP Manager for IIS</h3>
+
+<p>
+15. Once PHP Manager for IIS is downloaded, click next, I agree, and next again. Once it has successfully installed click close.
+</p>
+
+<p>
+<img width="505" alt="Screen Shot 2023-11-13 at 9 07 57 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/29e09e0e-85b9-444c-a3cd-7ba6a037e721">
+</p>
+
+<h3>Install Rewrite Module</h3>
+
+<p>
+16. Once Rewrite Module is downloaded, select "I agree" and click install. Once it has successfully installed click close. 
+</p>
+
+<p>
+<img width="501" alt="Screen Shot 2023-11-13 at 9 18 59 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/106a29b9-70b2-4b0b-95bb-c880ea5a8952">
+</p>
+
+<h3>Create a directory for PHP on the local hard drive</h3>
+
+<p>
+17. Open file exlporer, type in "c:" to go to the local drive. Create a new folder named "PHP". 
+</p>
+
+<p>
+<img width="1122" alt="Screen Shot 2023-11-13 at 9 27 59 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/49e62e44-da2f-46a5-a60f-e87e5727fc39">
+</p>
+
+<p>
+18. Once the PHP zip folder has downloaded, right click and select extract all.  
+</p>
+
+<p>
+<img width="1130" alt="Screen Shot 2023-11-13 at 9 39 05 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/9dac114c-2762-44be-8c94-6a6d47874046">
+</p>
+
+<p>
+19. Select browse and choose the PHP folder that was created in step 17.  
+</p>
+
+<p>
+<img width="1130" alt="Screen Shot 2023-11-13 at 9 39 05 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/9dac114c-2762-44be-8c94-6a6d47874046">
+</p>
+
+<h3>Install VC_redist.x86</h3>
+
+<p>
+20. Once VC_redist.x86 has donloaded, select "I agree" and click install. Once it has successfully installed click close. 
+</p>
+
+<p>
+<img width="483" alt="Screen Shot 2023-11-13 at 9 54 12 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/9a9efe57-1eb4-43d9-bd19-6f75d77a22e9">  
+</p>
+
+<h3>Install MySQL 5.5.62</h3>
+
+<p>
+21. Once MySQL 5.5.62 has donloaded, Click next, select "I agree", and click next.
+</p>
+
+<p>
+<img width="501" alt="Screen Shot 2023-11-13 at 10 01 16 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/9195f2e4-45be-4f50-8b76-711e431572e7">
+</p>
+
+<p>
+22. Choose "typical" for the setup type, click install, and keep clicking next until finish populates.
+</p>
+
+<p>
+<img width="503" alt="Screen Shot 2023-11-13 at 10 03 53 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/eb821400-fbd5-4ecb-90da-2d29fac2ec67">
+</p>
+
+23. Click next, select "standard configuration", and click next until you reach a screen to create a password.
+</p>
+
+<p>
+<img width="508" alt="Screen Shot 2023-11-13 at 10 07 51 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/8f6f4c6f-456b-4251-9373-0ddf27b1cb0e">
+</p>
+
+24. Create a password and click next. Click execute to begin installation. Once it has successfully installed click finish. 
+</p>
+
+<p>
+<img width="500" alt="Screen Shot 2023-11-13 at 10 13 43 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/55437f9f-3cf1-4ca3-a256-5c23f7107913">
+<img width="506" alt="Screen Shot 2023-11-13 at 10 14 44 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/5b8b7c77-d86d-4565-b29d-5de18364d593">
+</p>
+
+<h3>IIS Configurations</h3>
+
+<p>
+25. Go to the start menu and type in IIS. Run IIS as an administrator.
+</p>
+
+<p>
+<img width="1440" alt="Screen Shot 2023-11-13 at 10 21 47 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/0cb553d2-8267-4beb-86df-5b2e6695d160">
+</p>
+
+<p>
+26. Once IIS opens, double click on PHP Manager, and click on "Register new PHP version".
+</p>
+
+<p>
+<img width="1440" alt="Screen Shot 2023-11-13 at 10 21 47 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/0cb553d2-8267-4beb-86df-5b2e6695d160">
+<img width="1254" alt="Screen Shot 2023-11-13 at 10 26 55 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/91b54f41-9471-49ee-959a-db9da86630b8">
+</p>
+
+<p>
+27. Click on the three dots, find the PHP folder that was created in step 17, select the "PHP-cgi" file, and press OK.
+</p>
+
+<p>
+<img width="514" alt="Screen Shot 2023-11-13 at 10 29 48 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/3f48422e-4075-4663-a3c4-9feb4b2e7d20">
+<img width="710" alt="Screen Shot 2023-11-13 at 10 33 55 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/4aa603fb-3e02-44ee-8ec7-1e502b4d6ede">
+</p>
+
+<p>
+28. Go back to the main screen, click on the name of the server (VM1 "VM1/labuser") and click "Restart".
+</p>
+
+<p>
+<img width="1254" alt="Screen Shot 2023-11-13 at 10 38 27 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/841458ea-4962-4f2f-8718-c31ef1cb22a8">
+</p>
 
 
 
