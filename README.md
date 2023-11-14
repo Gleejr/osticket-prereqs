@@ -293,7 +293,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1254" alt="Screen Shot 2023-11-13 at 10 38 27 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/841458ea-4962-4f2f-8718-c31ef1cb22a8">
 </p>
 
+<h3>Install OsTicket</h3>
+<p>
+29. Once OsTicket zip folder has downloaded, open the folder and copy the upload folder.
+</p>
 
+<p>
+<img width="1128" alt="Screen Shot 2023-11-13 at 10 58 03 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/036bdc19-d94c-4850-9f60-eb17817becfd">
+</p>
+
+<p>
+30. Open the local drive folder (c:), go into the "inetpub" folder, go into the "wwwroot" folder, and paste the "upload" folder.
+</p>
+
+<p>
+<img width="1127" alt="Screen Shot 2023-11-13 at 11 00 40 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/4e7b643a-c1b2-457e-89b9-207e5add50be">
+<img width="1131" alt="Screen Shot 2023-11-13 at 11 02 28 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/bf4b40e8-ce47-42bb-8fb7-d95bd71f79db">
+</p>
+
+<p>
+31. Once the upload folder has been copied over, rename the "upload" folder to "osTicket"  
+</p>
+
+<p>
+<img width="1124" alt="Screen Shot 2023-11-13 at 11 12 20 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/04eceb69-ae43-4943-b57b-fb9377518793">
+</p>
+
+<p>
+32. Go back to IIS and restart the server again. (repeat step 28)
+</p>
+
+<p>
+33. Inside IIS click on the drop down arrow for "sites", click on the drop down arrow for "default web site", click on "osTicket", and on the right side of the screen click on "browse *.80(http)". This should bring you to a webpage for osTicket installer.
+</p>
+
+<p>
+<img width="1242" alt="Screen Shot 2023-11-13 at 11 20 59 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/7da45e6b-15c3-4ccd-b263-54457a2a649f">
+<img width="1440" alt="Screen Shot 2023-11-13 at 11 23 36 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/518ef0ae-e669-401a-ac5f-d3569db3e3e7">
+</p>
 
 
 
