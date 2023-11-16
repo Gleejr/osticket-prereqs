@@ -246,7 +246,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-<img width="508" alt="Screen Shot 2023-11-13 at 10 07 51 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/8f6f4c6f-456b-4251-9373-0ddf27b1cb0e">
+<img width="510" alt="Screen Shot 2023-11-15 at 8 41 12 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/e7ec0850-8429-4c91-af55-a8c1ea82fc08">
 </p>
 
 24. Create a password and click next. Click execute to begin installation. Once it has successfully installed click finish. 
@@ -272,7 +272,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-<img width="1440" alt="Screen Shot 2023-11-13 at 10 21 47 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/0cb553d2-8267-4beb-86df-5b2e6695d160">
+<img width="1258" alt="Screen Shot 2023-11-13 at 10 24 15 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/ffd18dd6-cfac-4b88-96d7-4cd8f24d6c51">
 <img width="1254" alt="Screen Shot 2023-11-13 at 10 26 55 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/91b54f41-9471-49ee-959a-db9da86630b8">
 </p>
 
