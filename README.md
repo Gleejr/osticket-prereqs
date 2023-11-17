@@ -332,6 +332,149 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1440" alt="Screen Shot 2023-11-13 at 11 23 36 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/518ef0ae-e669-401a-ac5f-d3569db3e3e7">
 </p>
 
+<p>
+34. Go back to IIS, click on osTicket again on the left, and double click on PHP manager. Click on "enable or disabile an extension".
+</p>
+
+<p>
+<img width="1078" alt="Screen Shot 2023-11-15 at 9 51 31 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/574b7c40-7742-4504-be31-5f21e21a24aa">
+<img width="1166" alt="Screen Shot 2023-11-15 at 9 53 12 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/553610a1-362f-4630-8247-833955f55078">
+</p>
+
+<p>
+35. Enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Go back to the browser and refresh osTicket. (There should be more green check marks)
+</p>
+
+<p>
+<img width="1171" alt="Screen Shot 2023-11-15 at 9 57 24 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/ac3eb1b5-1b5e-4bf0-b2e3-7dba88eccb0d">
+<img width="907" alt="Screen Shot 2023-11-15 at 10 01 32 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/329b46a7-fe90-4dc1-8b68-43ec72d46602">
+</p>
+
+<p>
+36. Go back into File explorer, go into the "wwwroot" folder (from step 30), go into the "0sTicket" folder, and go into the "include" folder.
+</p>
+
+<p>
+<img width="944" alt="Screen Shot 2023-11-15 at 10 06 54 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/6d15ef4b-696a-4c8a-a988-5f4da8aa682c">
+<img width="1106" alt="Screen Shot 2023-11-15 at 10 07 30 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/dd1cabf6-7c51-4283-b846-fddaf2df8503">
+</p>
+
+<p>
+37. Rename "ost-config.php". It should now look like this "C:\inetpub\wwwroot\osTicket\include\ost-config.php".
+</p>
+
+<p>
+<img width="901" alt="Screen Shot 2023-11-15 at 10 10 50 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/388563c7-60c8-4b3d-9c9a-da7c2f8d2ee0">
+<img width="872" alt="Screen Shot 2023-11-15 at 10 11 52 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/fa2fda26-9c51-424e-aabc-23cbb2c22a52">
+</p>
+
+<p>
+38. Right click on this file and select properties. Go to the security tab and click on advanced
+</p>
+
+<p>
+<img width="817" alt="Screen Shot 2023-11-15 at 10 14 17 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/394c110f-188b-405e-8811-c5b81eb3365a">
+<img width="364" alt="Screen Shot 2023-11-15 at 10 15 26 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/d711f8f3-ce47-498e-83eb-ccae2eb3a63f">
+</p>
+
+<p>
+39. Click on "Disable Inheritance" and select on "Remove all inherited permissions from this object". 
+</p>
+
+<p>
+<img width="763" alt="Screen Shot 2023-11-15 at 10 17 39 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/0aab3188-9158-46e5-b709-e264764bf83f">
+<img width="524" alt="Screen Shot 2023-11-15 at 10 19 39 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/369e7f08-b4ed-4d82-a298-ec7c05fdd961">
+</p>
+
+<p>
+40. Click on add and click on "select a principal". Type in "Everyone", click on check names, and select OK.
+</p>
+
+<p>
+<img width="770" alt="Screen Shot 2023-11-15 at 10 22 08 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/80b68f28-8ec0-4093-aaa9-d873d5026e43">
+<img width="911" alt="Screen Shot 2023-11-15 at 10 23 29 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/8aff067a-6c0c-4ca2-9f87-607b0e8422e5">
+<img width="464" alt="Screen Shot 2023-11-15 at 10 24 58 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/214f26e4-0a5a-4410-a475-2caa220d8da8">
+</p>
+
+<p>
+41. Click on "Full control" which will check all the boxes below and click on OK. CLick on apply and OK again.
+</p>
+
+<p>
+<img width="920" alt="Screen Shot 2023-11-15 at 10 28 48 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/4cbcf795-c655-4b5f-a0fb-5d55cfb58f6e">
+</p>
+
+<p>
+42. Go back to osTicket in the browser and click continue at the bottom.
+</p>
+
+<p>
+<img width="891" alt="Screen Shot 2023-11-15 at 10 33 13 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/b85fa39b-3a71-4ec3-b95e-68c8e806b021">
+</p>
+
+<p>
+43. Complete the information on the page. (name, username, password, email address)
+</p>
+
+<p>
+<img width="834" alt="Screen Shot 2023-11-15 at 10 37 41 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/9520fc84-823a-45e1-96d2-64480a234e17">
+</p>
+
+<h3>Install Heidi SQL</h3>
+
+<p>
+44. Once Heidi SQL has downloaded, select "I accept" and keep clicking next and install until you reach finish. 
+</p>
+
+<p>
+<img width="609" alt="Screen Shot 2023-11-15 at 10 41 23 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/ed99e8bb-d061-4e77-8b46-1c743b327838">
+</p>
+
+<p>
+45. Heidi will launch after the installation. Click "New", enter the password (this is the password for MYSQL that was setup in step 23), and click "open" (this will establish a connection to the MYSQL server)
+</p>
+
+<p>
+<img width="692" alt="Screen Shot 2023-11-15 at 10 46 47 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/ad0f27dc-34e8-4ab9-9e7f-d7bc2c5d0284">
+<img width="690" alt="Screen Shot 2023-11-15 at 10 47 57 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/f6c18104-14eb-45b2-8303-4ed182de9186">
+<img width="690" alt="Screen Shot 2023-11-15 at 10 47 57 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/430ead9c-e5dd-4aac-bc00-121a936c96b7">
+</p>
+
+<p>
+46. Inside Heidi, right click on "Unnamed", move the cursor to "create new", and select database. Type in the name "osTicket" and click OK.
+</p>
+
+<p>
+<img width="939" alt="Screen Shot 2023-11-15 at 10 54 46 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/12ea83da-abf9-47c2-aa87-7aea27d93261">
+<img width="321" alt="Screen Shot 2023-11-15 at 10 58 00 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/4c049a33-a151-4579-aa39-02dfb7d3491a">
+</p>
+
+<p>
+47. Enter the MySQL Database: osTicket, MySQL Username: root, and MySQL Password: Password1234. Click install now and osTicket should install onto this server.
+</p>
+
+<p>
+<img width="675" alt="Screen Shot 2023-11-15 at 10 59 36 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/c0afaacb-c45f-447a-b23e-c34bb1afe12b">
+<img width="973" alt="Screen Shot 2023-11-15 at 11 02 30 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/79ddd2e0-9eee-4068-b22a-277dc71f1c77">
+</p>
+
+<p>
+48. Once fully installed there will be a "Congratulations" message.
+</p>
+
+<p>
+<img width="947" alt="Screen Shot 2023-11-15 at 11 03 16 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/634496ed-f3ea-4ffc-b193-3d39546c198e">
+</p>
+
+
+
+
+
+
+
+
+
+
 
 
 
