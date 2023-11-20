@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-1. In the Azure portal, enter 'resource groups' in the search bar above, and then select the 'Resource Groups' option.
+1. In the Azure portal, enter 'Resource Groups' in the search bar above, and then select the 'Resource Groups' option.
 </p>
 
 <p>
@@ -51,7 +51,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-4. After creating the resource group, enter 'virtual machines' into the search bar above and proceed to select 'Virtual Machines.'
+4. After creating the resource group, enter 'Virtual Machines' into the search bar above and proceed to select 'Virtual Machines.'
 </p>
 
 <p>
