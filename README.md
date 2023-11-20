@@ -20,18 +20,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
 <h2>Installation Steps</h2>
 
 <p>
-1. In the Azure portal, enter "resource groups" into the search bar above, then select the "Resource Groups" option.
+1. In the Azure portal, enter 'resource groups' in the search bar above, and then select the 'Resource Groups' option.
 </p>
 
 <p>
@@ -41,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-2. Select "Create" to initiate the creation of a new resource group.
+2. Select 'Create' to initiate the creation of a new resource group.
 </p>
   <p>
   
@@ -50,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-3. Enter OsTicket-Lab for the resource group and choose "West US 3" as the region. Click on "Review + Create" and then proceed to click on "Create" once more.
+3. Enter 'OsTicket-Lab' for the resource group and choose 'West US 3' as the region. Click on 'Review + Create' and then proceed to click 'Create' once more."
 </p>
  
 <p>
@@ -59,7 +51,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-4. After creating the resource group, please enter "virtual machines" into the search bar above and proceed to select "Virtual Machines."
+4. After creating the resource group, enter 'virtual machines' into the search bar above and proceed to select 'Virtual Machines.'
 </p>
 
 <p>
@@ -68,7 +60,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-5. Click on "create a virtual machine hosted by Azure". 
+5. Click on 'Create a virtual machine hosted by Azure.' 
 </p>
 
 <p>
@@ -77,7 +69,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-6. Choose "OsTicket-Lab" as the resource group created in step 2. Enter "VM1" as the virtual machine name, select West US 3 as the region, and select the "Windows 10 pro" image. 
+6. Choose 'OsTicket-Lab' as the resource group created in step 2. Enter 'VM1' as the virtual machine name, select 'West US 3' as the region, and choose the 'Windows 10 Pro' image.
 </p>
 
 <p>
@@ -86,7 +78,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-7. Choose the "Standard_D4s_v3 - 4 vCPUs 16 GiB memory" size. Set "labuser" as the username and "Password1234" as the password.
+7. Choose the 'Standard_D4s_v3 - 4 vCPUs 16 GiB memory' size. Set 'labuser' as the username and 'Password1234' as the password.
 </p>
 
 <p>
@@ -95,7 +87,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-8. Click on "Review + Create," then proceed to click "Create" for the first virtual machine (DC-1).
+8. Click on 'Review + Create,' then proceed to click 'Create' for the first virtual machine (VM-1).
 </p>
 
 <p>
@@ -104,7 +96,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-8. Go to virtual machines, go into VM1, and grab the public IP address.
+8. Go to 'Virtual Machines,' navigate into 'VM1,' and retrieve the public IP address.
 </p>
 
 <p>
@@ -113,7 +105,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-9. Launch remote desktop and login into VM1 using the username and password that was set in step 7.
+9. Launch Remote Desktop and log in to VM1 using the username and password set in step 7.
 </p>
 
 <p>
@@ -123,7 +115,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-10. Right click on the windows icon, select run, and type in control. 
+10. Right-click on the Windows icon, select 'Run,' and type in 'control.' 
 </p>
 
 <p>
@@ -131,7 +123,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-11. Click on programs and click on "Turn Windows features on and off"
+11. Click on 'Programs' and then select 'Turn Windows features on and off.'
 </p>
 
 <p>
@@ -141,7 +133,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-12. Click on Internet Information Services and expand it, expand World Wide Web Services, expand application development features, and check the boxnext to CGI.
+12. Click on 'Internet Information Services,' expand it, then expand 'World Wide Web Services,' expand 'Application Development Features,' and check the box next to 'CGI.'
 </p>
 
 <p>
@@ -152,7 +144,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-13. Expand "Common HTTP Features" and make sure that every box is checked. Click OK and installation should start.
+13. Expand 'Common HTTP Features' and ensure that every box is checked. Click OK, and the installation will start.
 </p>
 
 <p>
@@ -161,7 +153,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-14. Once the installation has completed, open a web browser and type in 127.0.0.1. This can test if the web server is working by populating the defualt IIS website.
+14. Once the installation has completed, open a web browser and type in 127.0.0.1. This can test if the web server is working by populating the default IIS website.
 </p>
 
 <p>
@@ -171,7 +163,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Install PHP Manager for IIS</h3>
 
 <p>
-15. Once PHP Manager for IIS is downloaded, click next, I agree, and next again. Once it has successfully installed click close.
+15. Download PHP Manager for IIS. Once the download is complete, click 'Next,' 'I Agree,' and then 'Next' again. After it has successfully installed, click 'Close.'
 </p>
 
 <p>
@@ -181,17 +173,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Install Rewrite Module</h3>
 
 <p>
-16. Once Rewrite Module is downloaded, select "I agree" and click install. Once it has successfully installed click close. 
+16. Download the Rewrite Module. Once the download is complete, select 'I agree' and click 'Install.' After it has successfully installed, click 'Close.'
 </p>
 
 <p>
 <img width="501" alt="Screen Shot 2023-11-13 at 9 18 59 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/106a29b9-70b2-4b0b-95bb-c880ea5a8952">
 </p>
 
-<h3>Create a directory for PHP on the local hard drive</h3>
+<h3>Create a directory for PHP on the local hard drive & Install PHP 7.3.8</h3>
 
 <p>
-17. Open file exlporer, type in "c:" to go to the local drive. Create a new folder named "PHP". 
+17. Open File Explorer, type 'c:' to go to the local drive, and create a new folder named 'PHP.'
 </p>
 
 <p>
@@ -199,7 +191,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-18. Once the PHP zip folder has downloaded, right click and select extract all.  
+18. Download the PHP 7.3.8 zip folder. Once the PHP zip folder has downloaded, right-click and select 'Extract All.' 
 </p>
 
 <p>
@@ -207,7 +199,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-19. Select browse and choose the PHP folder that was created in step 17.  
+19. Select 'Browse' and choose the PHP folder that was created in step 17. 
 </p>
 
 <p>
@@ -217,7 +209,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Install VC_redist.x86</h3>
 
 <p>
-20. Once VC_redist.x86 has donloaded, select "I agree" and click install. Once it has successfully installed click close. 
+20. Download VC_redist.x86. Once the VC_redist.x86 file has downloaded, select 'I agree' and click 'Install.' After it has successfully installed, click 'Close.'
 </p>
 
 <p>
@@ -227,7 +219,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Install MySQL 5.5.62</h3>
 
 <p>
-21. Once MySQL 5.5.62 has donloaded, Click next, select "I agree", and click next.
+21. Download MySQL 5.5.62. Once the MySQL 5.5.62 file has downloaded, click 'Next,' select 'I agree,' and click 'Next.'
 </p>
 
 <p>
@@ -235,21 +227,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-22. Choose "typical" for the setup type, click install, and keep clicking next until finish populates.
+22. Choose 'Typical' for the setup type, click 'Install,' and continue clicking 'Next' until 'Finish' populates.
 </p>
 
 <p>
 <img width="503" alt="Screen Shot 2023-11-13 at 10 03 53 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/eb821400-fbd5-4ecb-90da-2d29fac2ec67">
 </p>
 
-23. Click next, select "standard configuration", and click next until you reach a screen to create a password.
+23. Click 'Next,' select 'Standard Configuration,' and continue clicking 'Next' until you reach a screen to create a password.
 </p>
 
 <p>
 <img width="510" alt="Screen Shot 2023-11-15 at 8 41 12 PM" src="https://github.com/Gleejr/osticket-prereqs/assets/148407820/e7ec0850-8429-4c91-af55-a8c1ea82fc08">
 </p>
 
-24. Create a password and click next. Click execute to begin installation. Once it has successfully installed click finish. 
+24. Enter 'Password1234' for the password and click 'Next.' Click 'Execute' to begin the installation. Once it has successfully installed, click 'Finish.'
 </p>
 
 <p>
@@ -260,7 +252,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>IIS Configurations</h3>
 
 <p>
-25. Go to the start menu and type in IIS. Run IIS as an administrator.
+25. Go to the Start menu and type in 'IIS.' Run IIS as an administrator.
 </p>
 
 <p>
@@ -268,7 +260,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-26. Once IIS opens, double click on PHP Manager, and click on "Register new PHP version".
+26.Once IIS opens, double-click on PHP Manager, and click on 'Register new PHP version.'
 </p>
 
 <p>
@@ -277,7 +269,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-27. Click on the three dots, find the PHP folder that was created in step 17, select the "PHP-cgi" file, and press OK.
+27. Click on the three dots, find the PHP folder that was created in step 17, select the 'PHP-cgi' file, and press 'OK.'
 </p>
 
 <p>
@@ -286,7 +278,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-28. Go back to the main screen, click on the name of the server (VM1 "VM1/labuser") and click "Restart".
+28.Go back to the main screen, click on the name of the server (VM1 'VM1/labuser'), and click 'Restart.'
 </p>
 
 <p>
@@ -295,7 +287,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Install OsTicket</h3>
 <p>
-29. Once OsTicket zip folder has downloaded, open the folder and copy the upload folder.
+29. Download the osTicket v1.15.8 zip folder. Once the osTicket zip folder has downloaded, open the folder and copy the 'upload' folder.
 </p>
 
 <p>
@@ -303,7 +295,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-30. Open the local drive folder (c:), go into the "inetpub" folder, go into the "wwwroot" folder, and paste the "upload" folder.
+30. Open the local drive folder (C:), navigate to the 'inetpub' folder, go into the 'wwwroot' folder, and paste the 'upload' folder.
 </p>
 
 <p>
@@ -312,7 +304,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-31. Once the upload folder has been copied over, rename the "upload" folder to "osTicket"  
+31. Once the 'upload' folder has been copied over, rename the 'upload' folder to 'osTicket.'
 </p>
 
 <p>
@@ -320,11 +312,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-32. Go back to IIS and restart the server again. (repeat step 28)
+32. Go back to IIS and restart the server again (repeat step 28).
 </p>
 
 <p>
-33. Inside IIS click on the drop down arrow for "sites", click on the drop down arrow for "default web site", click on "osTicket", and on the right side of the screen click on "browse *.80(http)". This should bring you to a webpage for osTicket installer.
+33. Inside IIS, click on the drop-down arrow for 'Sites,' then click on the drop-down arrow for 'Default Web Site,' further click on 'osTicket,' and on the right side of the screen, click on 'Browse *.80 (HTTP).' This should bring you to a webpage for the osTicket installer.
 </p>
 
 <p>
@@ -333,7 +325,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-34. Go back to IIS, click on osTicket again on the left, and double click on PHP manager. Click on "enable or disabile an extension".
+34. Go back to IIS, click on 'osTicket' again on the left, and double-click on PHP Manager. Click on 'Enable or Disable an Extension.'
 </p>
 
 <p>
@@ -342,7 +334,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-35. Enable "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Go back to the browser and refresh osTicket. (There should be more green check marks)
+35. Enable 'php_imap.dll,' 'php_intl.dll,' and 'php_opcache.dll.' Go back to the browser and refresh osTicket. (There should be more green check marks.)
 </p>
 
 <p>
@@ -351,7 +343,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-36. Go back into File explorer, go into the "wwwroot" folder (from step 30), go into the "0sTicket" folder, and go into the "include" folder.
+36. Go back into File Explorer, navigate to the 'wwwroot' folder (from step 30), then enter the 'osTicket' folder, and finally, enter the 'include' folder.
 </p>
 
 <p>
@@ -360,7 +352,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-37. Rename "ost-config.php". It should now look like this "C:\inetpub\wwwroot\osTicket\include\ost-config.php".
+37. Rename 'ost-sampleconfig.php' to 'ost-config.php.'
 </p>
 
 <p>
@@ -369,7 +361,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-38. Right click on this file and select properties. Go to the security tab and click on advanced
+38. Right-click on this file, select 'Properties,' go to the 'Security' tab, and click on 'Advanced.'
 </p>
 
 <p>
@@ -378,7 +370,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-39. Click on "Disable Inheritance" and select on "Remove all inherited permissions from this object". 
+39. Click on 'Disable Inheritance' and select 'Remove all inherited permissions from this object.'
 </p>
 
 <p>
@@ -387,7 +379,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-40. Click on add and click on "select a principal". Type in "Everyone", click on check names, and select OK.
+40.Click on 'Add' and then click on 'Select a principal.' Type in 'Everyone,' click on 'Check Names,' and select 'OK.'
 </p>
 
 <p>
@@ -397,7 +389,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-41. Click on "Full control" which will check all the boxes below and click on OK. CLick on apply and OK again.
+41. Click on 'Full control,' which will check all the boxes below, and click 'OK.' Click on 'Apply' and 'OK' again.
 </p>
 
 <p>
@@ -405,7 +397,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-42. Go back to osTicket in the browser and click continue at the bottom.
+42. Go back to osTicket in the browser and click 'Continue' at the bottom.
 </p>
 
 <p>
@@ -413,7 +405,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-43. Complete the information on the page. (name, username, password, email address)
+43. Complete the information on the page, including your name, username, password, and email address.
 </p>
 
 <p>
@@ -423,7 +415,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>Install Heidi SQL</h3>
 
 <p>
-44. Once Heidi SQL has downloaded, select "I accept" and keep clicking next and install until you reach finish. 
+44. Download Heidi SQL. Once the Heidi SQL has downloaded, select 'I accept' and continue clicking 'Next' and 'Install' until you reach 'Finish.'
 </p>
 
 <p>
@@ -431,7 +423,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-45. Heidi will launch after the installation. Click "New", enter the password (this is the password for MYSQL that was setup in step 23), and click "open" (this will establish a connection to the MYSQL server)
+45. Heidi will launch after the installation. Click 'New,' enter 'Password1234' for the password (this is the password for MySQL that was set up in step 23), and click 'Open' (this will establish a connection to the MySQL server).
 </p>
 
 <p>
@@ -441,7 +433,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-46. Inside Heidi, right click on "Unnamed", move the cursor to "create new", and select database. Type in the name "osTicket" and click OK.
+46. Inside Heidi, right-click on 'Unnamed,' move the cursor to 'Create New,' and select 'Database.' Type in the name 'osTicket' and click 'OK.'
 </p>
 
 <p>
@@ -450,7 +442,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-47. Enter the MySQL Database: osTicket, MySQL Username: root, and MySQL Password: Password1234. Click install now and osTicket should install onto this server.
+47. Enter the MySQL Database: 'osTicket,' MySQL Username: 'root,' and MySQL Password: 'Password1234.' Click 'Install Now,' and osTicket should install onto this server.
 </p>
 
 <p>
@@ -459,7 +451,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-48. Once fully installed there will be a "Congratulations" message.
+48. Once fully installed, you will see a 'Congratulations' message."
 </p>
 
 <p>
